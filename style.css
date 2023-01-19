@@ -1,0 +1,76 @@
+ @media screen and (max-width: 900px) {
+  div.display-flex{
+    display: flex;
+    flex-direction: column;
+  }
+}
+header {
+ background-color: #1c4587;
+ color: white;
+ font-size: 11vh;
+}
+
+.subtitle{
+  font-size: 3em;
+  font-weight: bold;
+  border-top: 3.5vh solid #cee2f5;
+  text-align: center;
+}
+
+footer{
+  background-color: #1c4587;
+  height: 20vh;
+}
+
+.border {
+  border: 0.3vh solid black;
+}
+
+.padding{
+  padding-top: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.smallmargin{
+  margin-bottom: 5vh;
+  margin: 4vh 5vh 5vh 3vh;
+
+}
+.content{
+  max-width: 70vw;
+}
+
+.text-align {
+text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.display-flex
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.display-flexsmall{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.font{
+  font-size: 3vh;
+  font-style: italic;
+  margin-top: 1vh;
+}
+
+.fontnormal
+{
+  font-size: 2vh;
+} 
+
